@@ -28,7 +28,7 @@ fetching some packges' metadata using the `lzrzposync`:
 ## Run
 To setup and run the `lzreposync` service locally, please follow these steps:
 ```shell
-$ git clone https://github.com/waterflow80/lzreposync.git
+$ git clone https://github.com/waterflow80/lzreposync-wb-scraping.git
 $ cd lzreposync
 $ docker-compose up (preferably in another terminal)
 $ pip install -r requirements.txt # note some libraries in this file are not necessary and should have been removed.
