@@ -1,5 +1,5 @@
-# Lazy reposync
-A basic lazy implementation of the Uyuni's [reposync](https://github.com/uyuni-project/uyuni/blob/master/python/spacewalk/satellite_tools/reposync.py) component.
+# Lazy reposync using Web Scraping
+A basic lazy implementation of the Uyuni's [reposync](https://github.com/uyuni-project/uyuni/blob/master/python/spacewalk/satellite_tools/reposync.py) component using web scraping.
 This service is only implementing the packages' metadata fetch process.
 
 ## Main Idea
@@ -30,7 +30,7 @@ To setup and run the `lzreposync` service locally, please follow these steps:
 $ git clone https://github.com/waterflow80/lzreposync.git
 $ cd lzreposync
 $ docker-compose up (preferably in another terminal)
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt # note some libraries in this file are not necessary and should have been removed.
 $ python3.8 lzreposync # if you notice an error like `psycopg2.errors.SyntaxError: ... don't worry, it's just sql complaining, we haven't completed formatting yet
 
 # Now we can see the metadata saved into our database
