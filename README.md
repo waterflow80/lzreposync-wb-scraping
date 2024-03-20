@@ -10,7 +10,8 @@ So we'll be scrapping the remote pacakge's repository's website to extract pakag
 ## How does it work ?
 The following flowchart diagram might give an idea on the general lazy reposync service:
 
-![reposync-workflow3 drawio](https://github.com/waterflow80/lzreposync/assets/82417779/98922b68-4aea-4195-b7c8-5df5d7fd52c5)
+![scrape-md drawio](https://github.com/waterflow80/lzreposync-wb-scraping/assets/82417779/b5f1b287-231a-4777-9846-3c60b194ebde)
+
 
 ## Persistence 
 The fetched metadata will be stored in a local Postgres database in a table called `package_meta_data`. Here's a portion of the content of that table after 
